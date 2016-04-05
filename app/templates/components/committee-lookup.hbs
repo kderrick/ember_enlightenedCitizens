@@ -1,0 +1,8 @@
+<div class="container">
+  <h1><button class="committee" {{action 'showCommitteeButtons'}}>Committee Lookup</button></h1>
+  {{#if showCommitteeButtons}}
+  <button class="btn btn-primary" {{action 'lookupHouseCommittees'}}>House</button>
+  <button class="btn btn-primary" {{action 'lookupSenateCommittees'}}>Senate</button>
+  <button class="btn btn-primary" {{action 'lookupJointCommittees'}}>Joint</button>
+  {{/if}}
+</div>

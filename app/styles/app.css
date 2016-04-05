@@ -1,0 +1,21 @@
+.jumbotron {
+  text-align: center;
+  color: white;
+  border: 2px solid black;
+  background-color: dimgray;
+  font-family: Pacifico;
+}
+.jumbotron a{
+  color: white;
+  text-decoration: underline;
+}
+
+.legislator {
+  background-color: white;
+  border: none;
+  text-decoration: underline;
+  color: blue;
+}
+.legislator:focus {
+  display: none;
+}

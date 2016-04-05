@@ -1,0 +1,13 @@
+<div class="container">
+  <h1><button class="legislator" {{action 'showLookupForm'}}> Legislator Lookup</button></h1>
+{{#if showLookupForm}}
+  <form>
+    <div class="form-group">
+      <label for="zip">Zip</label>
+      {{input value=zip id="zip"}}
+    </div>
+
+    <button class="btn btn-primary" {{action 'zipLookup'}}>Submit</button>
+  </form>
+  {{/if}}
+</div>

@@ -6,8 +6,9 @@ export default Ember.Component.extend({
     showCommitteeButtons() {
       this.toggleProperty('showCommitteeButtons');
     },
-    lookupHouseCommittees() {
-      this.sendAction('lookupHouseCommittees');
+    lookupCommittees(params) {
+      this.sendAction('lookupCommittees', params);
+
     }
   }
 });

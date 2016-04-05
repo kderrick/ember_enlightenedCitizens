@@ -7,7 +7,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('results', {path: '/results/:zip'});
-  this.route('committee-results');
+  this.route('committee-results', {path: '/committee-results/:chamber'});
 });
 
 export default Router;

@@ -6,8 +6,8 @@ export default Ember.Route.extend({
     zipLookup(params) {
       this.transitionTo('results', params.zip);
     },
-    lookupHouseCommittees() {
-      this.transitionTo('committee-results');
+    lookupCommittees(params) {
+      this.transitionTo('committee-results', params);
     }
   }
 });

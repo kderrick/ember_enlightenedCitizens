@@ -10,12 +10,15 @@
   text-decoration: underline;
 }
 
-.legislator {
+.legislator, .committee {
   background-color: white;
   border: none;
   text-decoration: underline;
   color: #22bdf0;
 }
 .legislator:focus {
+  display: none;
+}
+.committee:focus {
   display: none;
 }

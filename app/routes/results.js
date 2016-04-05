@@ -10,4 +10,3 @@ export default Ember.Route.extend({
    });
   },
 });
-// 'http://congress.api.sunlightfoundation.com/committees/locate?apikey=64258e8ddf2240809fd1cd35b593dd11'

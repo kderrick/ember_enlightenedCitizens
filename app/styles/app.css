@@ -14,7 +14,7 @@
   background-color: white;
   border: none;
   text-decoration: underline;
-  color: blue;
+  color: #22bdf0;
 }
 .legislator:focus {
   display: none;

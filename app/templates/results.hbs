@@ -1,7 +1,9 @@
 <div class="container">
   <ul>
     {{#each model as |legislator|}}
-      <li> {{legislator.first_name}} {{legislator.last_name}}<br>Contact: <a href=  {{legislator.contact_form}}>{{legislator.contact_form}} <br> {{legislator.gender}}</a></li>
+      <li> {{legislator.first_name}} {{legislator.last_name}}<br>Contact: <a href=  {{legislator.contact_form}}>{{legislator.contact_form}}</a> <br>
+      Twitter Contact: {{legislator.twitter_id}} <br>
+      Youtube channel: {{legislator.youtube_id}}</li>
     {{/each}}
   </ul>
 </div>

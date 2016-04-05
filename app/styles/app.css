@@ -22,3 +22,6 @@
 .committee:focus {
   display: none;
 }
+.glyphicon-fire {
+  color: red;
+}

@@ -1,9 +1,10 @@
-{{committee-lookup}}
 
 <div class="container">
+  <h3>List of committees</h3>
+  <button class="btn btn-primary" {{action 'showSubCommittees'}}><h4><span class="glyphicon glyphicon-fire"></span> = subcommittee</h4></button>
   <ul>
     {{#each model as |committee|}}
-    <li>{{committee.name}}</li>
+    <li>{{committee.name}} {{subcommittee committee}}</li>
     {{/each}}
   </ul>
 </div>

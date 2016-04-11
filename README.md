@@ -1,7 +1,6 @@
 # Sunlight
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This web application was built to practice using the Englightened Citizens Sunlight API. Specifically, you can look up your representatives by zip code, or lookup a list of committees by chamber (house, senate or joint).
 
 ## Prerequisites
 
